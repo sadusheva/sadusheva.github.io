@@ -2,18 +2,6 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-ul {
-  color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: .90rem;
-}
-
-h1 {
-  color: rgb(127,127,127);
-  font-family: 'Lato', sans-serif;
-  border-bottom: 2px solid rgb(127,127,127);
-}
-
 .container {
   background-color: white;
   margin-top: 20px;
@@ -22,15 +10,18 @@ h1 {
 	padding: 10px 150px 10px 150px;
 }
 
-.header {
-  color: white;
-  text-align: center;
+h1 {
+  color: rgb(127,127,127);
+  font-family: 'Lato', sans-serif;
+  border-bottom: 2px solid rgb(127,127,127);
 }
 
 #rectangle{
   width: auto;
   height: auto;
   background: rgb(142,180,227);
+  color: white;
+  text-align: center;
 }
 
 #name{
@@ -38,12 +29,13 @@ h1 {
 }
 
 .NameandDate {
-  font-size: 1rem; 
+  font-size: 1rem;
 }
 
 #date {
   float:right;
 }
+
 
 .PlaceandDegree {
   font-size: .90rem;
@@ -53,4 +45,32 @@ h1 {
   font-size: .90rem;
   margin-right: 200px;
   text-align: justify;
+}
+
+#multipleplaces {
+  list-style-type: none;
+  padding: 0px;
+}
+
+ul {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: .90rem;
+}
+
+.compare-btn{
+  display:flex;
+  justify-content: center;
+}
+
+.compare-btn a{
+  cursor: pointer;
+  border: 1px solid #204156;
+  text-align: center;
+  padding: 5px;
+  position: relative;
+}
+
+.compare-btn a:active {
+	top: 2px;
 }
