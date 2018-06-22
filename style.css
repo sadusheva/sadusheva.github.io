@@ -1,12 +1,44 @@
-p {
-  color:black;
+body {
   font-family: 'Lato', sans-serif;
 }
+
 ul {
   color: black;
   font-family: 'Lato', sans-serif;
+  font-size: .90rem;
 }
+
 h1 {
-  color:black;
+  color: rgb(127,127,127);
   font-family: 'Lato', sans-serif;
+}
+
+.container {
+  background-color: white;
+}
+
+.header {
+  color: white;
+}
+
+#rectangle{
+  width: auto;
+  height: auto;
+  background: rgb(142,180,227);
+}
+
+#name{
+  font-size: 1.5rem;
+}
+
+.NameandDate {
+  font-size: 1rem; 
+}
+
+.PlaceandDegree {
+  font-size: .90rem;
+}
+
+.description {
+  font-size: .90rem;
 }
