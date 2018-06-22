@@ -11,14 +11,20 @@ ul {
 h1 {
   color: rgb(127,127,127);
   font-family: 'Lato', sans-serif;
+  border-bottom: 2px solid rgb(127,127,127);
 }
 
 .container {
   background-color: white;
+  margin-top: 20px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 10px 150px 10px 150px;
 }
 
 .header {
   color: white;
+  text-align: center;
 }
 
 #rectangle{
@@ -28,11 +34,15 @@ h1 {
 }
 
 #name{
-  font-size: 1.5rem;
+  font-size: 1.40rem;
 }
 
 .NameandDate {
   font-size: 1rem; 
+}
+
+#date {
+  float:right;
 }
 
 .PlaceandDegree {
@@ -41,4 +51,6 @@ h1 {
 
 .description {
   font-size: .90rem;
+  margin-right: 200px;
+  text-align: justify;
 }
