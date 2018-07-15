@@ -1,0 +1,69 @@
+@keyframes hover {
+  0% {
+  }
+  100% {
+  }
+}
+
+body {
+  box-sizing: content-box;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: rgb(9, 145, 145);
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  align-content: center;
+}
+
+li {
+display: inline;
+list-style-type: none;
+}
+
+.button {
+  background-color: rgb(9, 145, 145);
+  color: white;
+  padding: 2%;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 100%;
+}
+
+/*Differential Tables */
+
+table {
+    border-collapse: collapse;
+    margin-top: 1%;
+    width: initial;
+}
+
+
+
+th, td {
+    border: 1px solid black;
+    width: fit-content;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.dx, .hpi, .pmh, .pe, .workup {
+  color:transparent;
+  transition: 0s, 180s;
+}
+
+.dx:hover, .hpi:hover, .pmh:hover, .pe:hover, .workup:hover {
+  color:black;
+  transition: 0s;
+}
+
+
