@@ -1,0 +1,46 @@
+body {
+  box-sizing: content-box;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: rgb(9, 145, 145);
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 30%;
+}
+
+li {
+display: inline;
+list-style-type: none;
+}
+
+.button {
+  background-color: rgb(9, 145, 145);
+  color: white;
+  padding: 5%;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 150%;
+}
+
+/* End of Navigation Bar */
+/* Start of Case Part 1 */
+
+.casetitle {
+  font-weight: bold; 
+}
+
+.casedesc h2{
+  font-weight: 200;
+  text-decoration-line:  underline;
+}
+
+.casedesc h4{
+  font-weight: 100;
+}
+
+/* End of Case Part 1 */
