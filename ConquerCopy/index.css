@@ -1,0 +1,396 @@
+@font-face{
+  font-family: 'Glyphicons';
+  src: url('Fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+body {font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
+margin: 0;
+}
+
+
+.topnav {
+  background-color:#383E4C;
+  padding: 25px 20px 29px 300px;
+  width: 100%;
+  position: fixed;
+}
+
+.btn{
+  font-size: 1.3rem;
+  background-color: #383E4C;
+  color: white;
+  border: 1px solid #646d7c ;
+  cursor: pointer;
+  padding: 15px 25px;
+  margin-right: 16px;
+  text-decoration-line: none;
+
+}
+
+.topnav a:active {
+  background-color:#40475A;
+}
+
+.topnav a:hover {
+background-color: #40475A;
+}
+
+/*---------------------------------------------------------*/
+
+.sectionone {
+  background-image: url(Images/bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  height: 600px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+}
+
+.main {
+  padding-top: 220px;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  font-stretch: ultra-condensed;
+}
+
+.second {
+  font-size: 20px;
+  text-shadow: 2px 2px black;
+}
+
+/*--------------------------------------------------------*/
+
+.sectiontwo {
+  background-color: white;
+}
+
+.wrapper {
+ style: flex-wrap;
+ display: flex;
+ padding: 58px 65px 0px 65px;
+}
+
+
+.first {
+  vertical-align: top;
+  float: right; 
+  margin-right: 1px;
+  background-color: rgb(242, 215, 189, .2);
+}
+
+.cfirst {
+  width: 100%;
+    height: 250px;
+}
+
+.green {
+  color: #177E20;
+  padding-left: 20px;
+}
+
+.greenbtn {
+  background-color:  #177E20;
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-right: 16px;
+  margin-left: 100px;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+.greenbtn a:hover {
+  background-color: white;
+}
+
+.blue {
+  color: #167AA0;
+  padding-left: 20px;
+}
+
+.bluebtn {
+  background:  #167AA0;
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-right: 16px;
+  margin-left: 100px;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+.gray {
+  color: #665D55;
+  padding-left: 20px;
+}
+
+.redbtn {
+  background: #C92920;
+  color: white;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-right: 16px;
+  margin-left: 100px;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+.bottom {
+  vertical-align: top;
+  background-color: rgb(242, 215, 189, .2);
+}
+.cbottom {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 30px; /*-Area below button */
+  padding-top: 0px; /*Area between pic and text */
+}
+
+.wrapper2 {
+ style: flex-wrap;
+ height: 675px;
+ display: flex;
+ padding: 58px 65px 70px 65px;
+
+}
+
+.whitebtn {
+  background: white;
+  color: #6E5B49;
+  border: 1px #6E5B49 solid;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-right: 15%;
+  margin-left: 50%;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  float:right; 
+}
+
+h4 {
+  color: #766C62;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 32px;
+  font-size: .95rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+#bottomright {
+  color: #766C62;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+/*---------------------------------------------------------*/
+.sectionthree {
+  background-image: url(Images/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 75px;
+  width: 100%;
+  height: 250px;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  text-shadow: 2px 1px black;
+  overflow-x: hidden;
+}
+
+.servicedesc {
+  width:50%;
+  padding: 10px 375px;
+  font-size: 1.3rem;
+  line-height: 150%;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: lighter;
+}
+
+.wrapper4 {
+  background-color: white;
+  height: 550px;
+  width: 65%;
+  display: inline-flex;
+  style: flex-wrap; 
+  margin-right: 50px; /*Doesn't do anything */
+  padding-left: 100px; /*Left side of first pic - good*/
+
+}
+
+.third {
+  width: 30%;
+  background: rgb(242, 215, 189, .2);
+  margin-left: 0px; /*All left sides*/
+  margin-right: 30px; /*Right sides of pics, not last - good*/
+}
+
+.whitebtn2 {
+  background: white;
+  color: #6E5B49;
+  border: 1px #6E5B49 solid;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin-right: 25%;
+  margin-left: 30%;
+  border-radius: 5px;
+  text-decoration-line: none;
+ 
+}
+
+.whitebtn3 {
+  background: white;
+  color: #6E5B49;
+  border: 1px #6E5B49 solid;
+  cursor: pointer;
+  padding: 15px 20px;
+  margin-right: 25%;
+  margin-left: 30%;
+  border-radius: 5px;
+  text-decoration-line: none;
+}
+
+/*---------------------------------------------------------*/
+
+.fourth {
+  background-color: rgb(242, 215, 189, .2);
+  background-clip:  content-box;
+  padding-left: 4%;
+  width: min-content;
+  height: 830px;
+  padding-bottom: 30px;
+}
+
+.cfourth {
+  padding: 2%;
+}
+
+.whitebtn4 {
+  background: white;
+  color: #6E5B49;
+  border: 1px #6E5B49 solid;
+  cursor: pointer;
+  padding: 15px 30px;
+  margin-right: 15%;
+  margin-left: 2%;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  border-radius: 5px;
+  text-decoration-line: none;
+  float: "left";
+}
+
+/*---------------------------------------------------------*/
+
+.sectionfive {
+  background-image: url(Images/bg-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 75px;
+  width: 100%;
+  height: 500px;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  overflow-x: hidden;
+}
+
+.contactus {
+  width:75%;
+  padding-top: 10px;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
+  line-height: 150%;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-weight:  100;
+}
+
+.wrapper5 {
+  text-align: center;
+  padding-left: 20%;
+  align-content: center;
+
+}
+
+.wrapper6 {
+  margin-left: 23%;
+  margin-right: 31%;
+}
+
+.contactdesc {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+  line-height: 180%;
+  color: black;
+  font-weight: normal;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-bottom: 3%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.row{
+  column-count: 2;
+  column-gap: 50px;
+}
+
+::placeholder {
+  color: black;
+}
+
+#name {
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+#email {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 5%;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+#subject {
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 5%;
+  height: 30px;
+  width: 350px;
+  border-radius: 5px;
+}
+
+#message {
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 136px;
+  width:  131%;
+  font-family: inherit;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.blackbtn {
+  background: black;
+  color: white;
+  border: 1px white solid;
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-decoration-line: none;
+ margin-left: 20px;
+}
